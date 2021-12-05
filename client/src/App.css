@@ -1,7 +1,60 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@1,200&display=swap");
+
+ .App {
+  display: flex;
+  /* text-align: center; */
+  padding: 0 50px 5px 10px;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: rgb(52, 51, 53);
+ 
 }
 
+h1.App-title {
+  color: aqua;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  border: 5px;
+  border-style: dotted;
+  /* background-color: rgb(231, 238, 238); */
+  height: 590px;
+  width: 100%;
+
+}
+
+.container-map {
+  width: 1000px;
+  height: 550px;
+  margin: 2em;
+  background-color: rgb(238, 226, 58);
+}
+
+.branches {
+  padding: 2em;
+}
+.branch1 {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(247, 224, 215);
+  margin-bottom: 1em;
+}
+.branch2 {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(189, 238, 215);
+  margin-bottom: 1em;
+}
+.branch3 {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(178, 214, 247);
+  margin-bottom: 1em;
+}
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +88,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
